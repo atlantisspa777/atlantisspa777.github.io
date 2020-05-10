@@ -1502,6 +1502,11 @@ section.lazy-placeholder:after {
   transition: 0.2s background ease-in-out;
   background: linear-gradient(to left, #554346, #45505b) !important;
 }
+.cid-rYAVtGvzpN {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
 .cid-rYzOYksF6W .navbar {
   padding: .5rem 0;
   background: #333333;
@@ -3262,7 +3267,7 @@ section.lazy-placeholder:after {
 .cid-rYAt24lKZg .panel-text {
   text-align: center;
 }
-.cid-rYAAZtXLwv {
+.cid-rYAVlHGHtS {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #ffffff;
