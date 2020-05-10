@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-05-10_1224",
-    "currentPage": "fitness.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -794,7 +794,7 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "Выберите из большого выбора последние готовые блоки - легкий, гибкий компонент, большое изображение веб-баннера, прокрутку с эффектом параллакса, видео фоны, гамбургер меню, прикрепленный заголовок и многое другое.",
-                "buttons": " <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"mobi-mbri mobi-mbri-arrow-up mbr-iconfont mbr-iconfont-btn\"></span></a>"
+                "buttons": " <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-arrow-next mbr-iconfont mbr-iconfont-btn\"></span></a>"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/mbr-1920x1279.jpg",
@@ -813,7 +813,7 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "!",
-                "buttons": " <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"mobi-mbri mobi-mbri-arrow-up mbr-iconfont mbr-iconfont-btn\"></span></a>"
+                "buttons": " <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-arrow-next mbr-iconfont mbr-iconfont-btn\"></span></a>"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/mbr-1920x1440.jpg",
@@ -832,7 +832,7 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "Выберите из большого выбора последние готовые блоки - легкий, гибкий компонент, большое изображение веб-баннера, прокрутку с эффектом параллакса, видео фоны, гамбургер меню, прикрепленный заголовок и многое другое.",
-                "buttons": " <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Введите Текст\" href=\"beauty _treatments.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mobi-mbri mobi-mbri-arrow-up mbr-iconfont mbr-iconfont-btn\"></span></a> "
+                "buttons": " <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Введите Текст\" href=\"beauty _treatments.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-arrow-next mbr-iconfont mbr-iconfont-btn\"></span></a> "
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/mbr-2-1920x1280.jpg",
@@ -851,7 +851,7 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "Слайд с фоновым изображением YouTube и цветным наложением. Заголовок и текст выровнены влево.",
-                "buttons": " <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Введите Текст\" href=\"fitness.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mobi-mbri mobi-mbri-arrow-up mbr-iconfont mbr-iconfont-btn\"></span></a>"
+                "buttons": " <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Введите Текст\" href=\"fitness.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-arrow-next mbr-iconfont mbr-iconfont-btn\"></span></a>"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/mbr-1920x1271.jpg",
@@ -870,7 +870,7 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "Выберите из большого выбора последние готовые блоки - легкий, гибкий компонент, большое изображение веб-баннера, прокрутку с эффектом параллакса, видео фоны, гамбургер меню, прикрепленный заголовок и многое другое.",
-                "buttons": " <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"mobi-mbri mobi-mbri-arrow-up mbr-iconfont mbr-iconfont-btn\"></span></a> "
+                "buttons": " <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-arrow-next mbr-iconfont mbr-iconfont-btn\"></span></a> "
               }
             ]
           }
