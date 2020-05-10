@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-05-10_1224",
-    "currentPage": "Beauty _Treatments.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -38,7 +38,7 @@
         "url": "https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i"
       }
     ],
-    "uniqCompNum": 65,
+    "uniqCompNum": 66,
     "versionPublish": "4.12.3",
     "imageResize": true,
     "cookiesAlert": {
@@ -774,7 +774,7 @@
           "_once": false,
           "_params": {
             "slides__autoplay": "true",
-            "slides__autoplayInterval": "4000",
+            "slides__autoplayInterval": "2000",
             "slides__showBullets": true,
             "slides": [
               {
@@ -794,13 +794,13 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "Выберите из большого выбора последние готовые блоки - легкий, гибкий компонент, большое изображение веб-баннера, прокрутку с эффектом параллакса, видео фоны, гамбургер меню, прикрепленный заголовок и многое другое.",
-                "buttons": " <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-arrow-up mbr-iconfont mbr-iconfont-btn\"></span></a>"
+                "buttons": " <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"mobi-mbri mobi-mbri-arrow-up mbr-iconfont mbr-iconfont-btn\"></span></a>"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/mbr-1920x1279.jpg",
                 "active": true,
                 "showButtons": true,
-                "showText": true,
+                "showText": false,
                 "showTitle": true,
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -812,7 +812,7 @@
                 "textTitle": "Massages",
                 "overlay": true,
                 "contentAlign": "center",
-                "text": "In addition to a pleasant feeling of lightness and relaxation, the massage will benefit Your body. You will forget about pain, discomfort, and clamps in the body and will definitely feel a full relaxation of all the muscles, even those the existence of which You never knew existed! Your body will get a full upgrade, once and for all You will say goodbye to diseases of the heart and the blood vessels, to breathing difficulties and constant pain in the neck and backache as to the other parts of the body too! If You have suffered an injury, the massage will become your excellent helper in the recovery period. Your health will be excellent and your skin will be healthy, young and beautiful so anyone would envy You! Yes, without an exception!",
+                "text": "!",
                 "buttons": " <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"mobi-mbri mobi-mbri-arrow-up mbr-iconfont mbr-iconfont-btn\"></span></a>"
               },
               {
@@ -830,9 +830,9 @@
                 "title": "",
                 "textTitle": "Beauty Treatments",
                 "overlay": true,
-                "contentAlign": "right",
+                "contentAlign": "center",
                 "text": "Выберите из большого выбора последние готовые блоки - легкий, гибкий компонент, большое изображение веб-баннера, прокрутку с эффектом параллакса, видео фоны, гамбургер меню, прикрепленный заголовок и многое другое.",
-                "buttons": " <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Введите Текст\" href=\"Solarium_Beauty _Treatments.html\" data-toolbar=\"-mbrBtnMove\">ДЛЯ MAC</a> "
+                "buttons": " <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Введите Текст\" href=\"Solarium_Beauty _Treatments.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mobi-mbri mobi-mbri-arrow-up mbr-iconfont mbr-iconfont-btn\"></span></a> "
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/mbr-2-1920x1280.jpg",
@@ -851,7 +851,7 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "Слайд с фоновым изображением YouTube и цветным наложением. Заголовок и текст выровнены влево.",
-                "buttons": " <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\">ДЛЯ MAC</a>"
+                "buttons": " <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"mobi-mbri mobi-mbri-arrow-up mbr-iconfont mbr-iconfont-btn\"></span></a>"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/mbr-1920x1271.jpg",
@@ -868,9 +868,9 @@
                 "title": "",
                 "textTitle": "Solarium Mega Sun",
                 "overlay": true,
-                "contentAlign": "right",
+                "contentAlign": "center",
                 "text": "Выберите из большого выбора последние готовые блоки - легкий, гибкий компонент, большое изображение веб-баннера, прокрутку с эффектом параллакса, видео фоны, гамбургер меню, прикрепленный заголовок и многое другое.",
-                "buttons": " <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ДЛЯ MAC</a> "
+                "buttons": " <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"mobi-mbri mobi-mbri-arrow-up mbr-iconfont mbr-iconfont-btn\"></span></a> "
               }
             ]
           }
@@ -1001,6 +1001,201 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "overflow": "hidden",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              }
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                }
+              }
+            }
+          },
+          "_name": "gallery3",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Полная ширина\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Градиентное наложение\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Наложение  Цвет 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Галерея\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\"></div>\n    </div>\n\n</section>",
+          "_cid": "rYACOT0nxh",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery": [
+              {
+                "tags": "Потрясающие",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020410-144932020-4-0-16-0-11.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=dZdtYyAczmY",
+                "image": "@THEME_PATH@/components/_images/background1.jpg",
+                "thumb": "@THEME_PATH@/components/_images/background1.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Введите заголовок здесь",
+                "active": false
+              },
+              {
+                "tags": "Отзывчивый",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020410-144932020-4-0-16-0-55.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=RK7RXq17Z_E",
+                "image": "@THEME_PATH@/components/_images/background2.jpg",
+                "thumb": "@THEME_PATH@/components/_images/background2.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Введите заголовок здесь",
+                "active": true
+              },
+              {
+                "tags": "Творческий",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/background3.jpg",
+                "thumb": "@THEME_PATH@/components/_images/background3.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Введите заголовок здесь",
+                "active": false
+              },
+              {
+                "tags": "Анимированный",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/background4.jpg",
+                "thumb": "@THEME_PATH@/components/_images/background4.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Введите заголовок здесь",
+                "active": false
+              },
+              {
+                "tags": "Потрясающие",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/background5.jpg",
+                "thumb": "@THEME_PATH@/components/_images/background5.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Введите заголовок здесь",
+                "active": false
+              },
+              {
+                "tags": "Потрясающие",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/background6.jpg",
+                "thumb": "@THEME_PATH@/components/_images/background6.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Введите заголовок здесь",
+                "active": false
+              },
+              {
+                "tags": "Отзывчивый",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/background7.jpg",
+                "thumb": "@THEME_PATH@/components/_images/background7.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Введите заголовок здесь",
+                "active": false
+              },
+              {
+                "tags": "Анимированный",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/background8.jpg",
+                "thumb": "@THEME_PATH@/components/_images/background8.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Введите заголовок здесь",
+                "active": false
+              }
+            ]
+          },
+          "_anchor": "gallery3-1t"
         }
       ]
     },
