@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-05-10_1224",
-    "currentPage": "index.html",
+    "currentPage": "fitness.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -38,7 +38,7 @@
         "url": "https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i"
       }
     ],
-    "uniqCompNum": 78,
+    "uniqCompNum": 80,
     "versionPublish": "4.12.3",
     "imageResize": true,
     "cookiesAlert": {
@@ -1205,7 +1205,7 @@
             "background-color": "@bgColor"
           },
           "_name": "content8",
-          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-black-outline\" href=\"index.html#slider1-13\" data-app-placeholder=\"Введите Текст\"><span class=\"mbri-left mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-black-outline\" href=\"#top\" data-app-placeholder=\"Введите Текст\"><span class=\"mbri-up mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-black-outline\" href=\"tel:+359 87-6650-005 \" data-app-placeholder=\"Введите Текст\"><span class=\"mbrib-mobile mbr-iconfont mbr-iconfont-btn\"></span></a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-black-outline\" href=\"index.html#slider1-13\" data-app-placeholder=\"Введите Текст\"><span class=\"mobi-mbri mobi-mbri-arrow-prev mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-black-outline\" href=\"#top\" data-app-placeholder=\"Введите Текст\"><span class=\"mobi-mbri mobi-mbri-arrow-up mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-black-outline\" href=\"tel:+359 87-6650-005 \" data-app-placeholder=\"Введите Текст\"><span class=\"socicon socicon-viber mbr-iconfont mbr-iconfont-btn\"></span></a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content8-25",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
@@ -2713,11 +2713,11 @@
             "background-color": "@bgColor"
           },
           "_name": "content8",
-          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-black-outline\" href=\"index.html#slider1-13\" data-app-placeholder=\"Введите Текст\"><span class=\"mbri-left mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-black-outline\" href=\"#top\" data-app-placeholder=\"Введите Текст\"><span class=\"mbri-up mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-black-outline\" href=\"tel:+359 87-6650-005 \" data-app-placeholder=\"Введите Текст\"><span class=\"mbrib-mobile mbr-iconfont mbr-iconfont-btn\"></span></a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content8-1y",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-black-outline\" href=\"index.html#slider1-13\" data-app-placeholder=\"Введите Текст\"><span class=\"mobi-mbri mobi-mbri-arrow-prev mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-black-outline\" href=\"#top\" data-app-placeholder=\"Введите Текст\"><span class=\"mobi-mbri mobi-mbri-arrow-up mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-black-outline\" href=\"tel:+359 87-6650-005 \" data-app-placeholder=\"Введите Текст\"><span class=\"socicon socicon-viber mbr-iconfont mbr-iconfont-btn\"></span></a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content8-27",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
-          "_cid": "rYAKTK2vbE",
+          "_cid": "rYAWyxGgUL",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -3244,11 +3244,11 @@
             "background-color": "@bgColor"
           },
           "_name": "content8",
-          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-black-outline\" href=\"index.html#slider1-13\" data-app-placeholder=\"Введите Текст\"><span class=\"mbri-left mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-black-outline\" href=\"#top\" data-app-placeholder=\"Введите Текст\"><span class=\"mbri-up mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-black-outline\" href=\"tel:+359 87-6650-005 \" data-app-placeholder=\"Введите Текст\"><span class=\"mbrib-mobile mbr-iconfont mbr-iconfont-btn\"></span></a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content8-24",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-black-outline\" href=\"index.html#slider1-13\" data-app-placeholder=\"Введите Текст\"><span class=\"mobi-mbri mobi-mbri-arrow-prev mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-black-outline\" href=\"#top\" data-app-placeholder=\"Введите Текст\"><span class=\"mobi-mbri mobi-mbri-arrow-up mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-black-outline\" href=\"tel:+359 87-6650-005 \" data-app-placeholder=\"Введите Текст\"><span class=\"socicon socicon-viber mbr-iconfont mbr-iconfont-btn\"></span></a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content8-26",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
-          "_cid": "rYAVlHGHtS",
+          "_cid": "rYAWt9ADnb",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
