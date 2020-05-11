@@ -1351,11 +1351,6 @@ section.lazy-placeholder:after {
 .cid-rYBkVdfzdD .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
 }
-@media (min-width: 1024px) {
-  .cid-rYBkVdfzdD .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
-  }
-}
 .cid-rYBkVdfzdD .collapsed button.navbar-toggler {
   display: block;
 }
@@ -1866,11 +1861,6 @@ section.lazy-placeholder:after {
 .cid-rYBkVdfzdD .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
 }
-@media (min-width: 1024px) {
-  .cid-rYBkVdfzdD .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
-  }
-}
 .cid-rYBkVdfzdD .collapsed button.navbar-toggler {
   display: block;
 }
@@ -2316,11 +2306,6 @@ section.lazy-placeholder:after {
 .cid-rYBkVdfzdD .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
 }
-@media (min-width: 1024px) {
-  .cid-rYBkVdfzdD .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
-  }
-}
 .cid-rYBkVdfzdD .collapsed button.navbar-toggler {
   display: block;
 }
@@ -2715,11 +2700,6 @@ section.lazy-placeholder:after {
 .cid-rYBkVdfzdD .collapsed .navbar-collapse.collapsing .navbar-buttons:last-child,
 .cid-rYBkVdfzdD .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
-}
-@media (min-width: 1024px) {
-  .cid-rYBkVdfzdD .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
-  }
 }
 .cid-rYBkVdfzdD .collapsed button.navbar-toggler {
   display: block;
@@ -3120,11 +3100,6 @@ section.lazy-placeholder:after {
 .cid-rYBkVdfzdD .collapsed .navbar-collapse.collapsing .navbar-buttons:last-child,
 .cid-rYBkVdfzdD .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
-}
-@media (min-width: 1024px) {
-  .cid-rYBkVdfzdD .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
-  }
 }
 .cid-rYBkVdfzdD .collapsed button.navbar-toggler {
   display: block;
