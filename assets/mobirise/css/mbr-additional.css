@@ -3256,6 +3256,7 @@ section.lazy-placeholder:after {
 }
 .cid-rYBFu1UlyE H4 {
   color: #232323;
+  text-align: center;
 }
 .cid-rYBFVIFrSE {
   padding-top: 0px;
@@ -3297,6 +3298,9 @@ section.lazy-placeholder:after {
 .cid-rYBFVIFrSE .panel-text {
   text-align: center;
 }
+.cid-rYBFVIFrSE H4 {
+  text-align: center;
+}
 .cid-rYLuBXGoaa {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -3334,6 +3338,12 @@ section.lazy-placeholder:after {
 }
 .cid-rYLuBXGoaa .card .card-header a.panel-title h4 .sign {
   padding-right: 1rem;
+}
+.cid-rYLuBXGoaa .panel-text {
+  text-align: center;
+}
+.cid-rYLuBXGoaa H4 {
+  text-align: center;
 }
 .cid-rYBJFHCK9Y {
   background: #ffffff;
