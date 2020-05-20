@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site- en",
-    "currentPage": "solarium_mega_sun.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -416,12 +416,12 @@
                 "overlayColor": "#5b686b"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/mbr-1920x1271.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-674-2000x1333.jpg",
                 "active": true,
                 "showButtons": true,
                 "showText": false,
                 "showTitle": true,
-                "playVideo": true,
+                "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fE3lw8gXtWI",
                 "customStyle1": "display-1",
                 "customStyle2": "display-5",
@@ -433,8 +433,8 @@
                 "contentAlign": "center",
                 "text": "Выберите из большого выбора последние готовые блоки - легкий, гибкий компонент, большое изображение веб-баннера, прокрутку с эффектом параллакса, видео фоны, гамбургер меню, прикрепленный заголовок и многое другое.",
                 "buttons": " <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Введите Текст\" href=\"solarium_mega_sun.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-arrow-next mbr-iconfont mbr-iconfont-btn\"></span></a> ",
-                "overlayOpacity": "0.4",
-                "overlayColor": "#5b686b"
+                "overlayOpacity": "0.3",
+                "overlayColor": "#ffffff"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/mbr-1-1920x1280.jpg",
