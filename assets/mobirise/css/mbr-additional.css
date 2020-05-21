@@ -960,11 +960,15 @@ section.lazy-placeholder:after {
   color: #767676;
   margin: 0;
   padding-top: 1.5rem;
+  text-align: center;
 }
 .cid-rYFuOGs16u div.b {
   padding-top: 2rem;
 }
 .cid-rYFuOGs16u H2 {
+  text-align: center;
+}
+.cid-rYFuOGs16u H5 {
   text-align: center;
 }
 .cid-rYFuMmPV2L .google-map {
