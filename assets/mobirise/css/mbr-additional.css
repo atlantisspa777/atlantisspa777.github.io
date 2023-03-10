@@ -706,17 +706,17 @@ section.lazy-placeholder:after {
 }
 .cid-txQ2JNUHwu .nav-tabs .nav-link:hover {
   cursor: pointer;
-  background-color: #cebfaf;
+  background-color: #0d1c67;
 }
 .cid-txQ2JNUHwu .nav-tabs .nav-link.active {
   font-weight: 500;
-  color: #000000;
+  color: #ffffff;
   font-style: normal;
-  background-color: #cebfaf;
-  border-color: #cebfaf;
+  background-color: #0d1c67;
+  border-color: #0d1c67;
 }
 .cid-txQ2JNUHwu .nav-tabs .nav-link.active:hover {
-  background-color: #cebfaf;
+  background-color: #0d1c67;
 }
 .cid-txQ2JNUHwu p {
   color: #ffffff;
@@ -1037,8 +1037,8 @@ section.lazy-placeholder:after {
   background-image: url("../../../assets/images/img-2990-768x960.jpg");
 }
 .cid-rYFuOGs16u {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 90px;
+  padding-bottom: 90px;
   background-image: url("../../../assets/images/img-2989-960x720.jpg");
 }
 .cid-rYFuOGs16u .mbr-text {
@@ -1505,7 +1505,7 @@ section.lazy-placeholder:after {
 .cid-rYAI4gMDBP {
   padding-top: 120px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/fitness-meta.jpeg");
+  background-image: url("../../../assets/images/img-3117-1440x1800.jpg");
 }
 .cid-rYAI4gMDBP .mbr-section-subtitle {
   color: #767676;
@@ -1545,7 +1545,7 @@ section.lazy-placeholder:after {
   border-top: 1px solid #cccccc;
 }
 .cid-rYAI4gMDBP table.table {
-  background: #ffffff;
+  background: #0d1c67;
 }
 .cid-rYAI4gMDBP .dataTables_filter {
   text-align: right;
@@ -1583,6 +1583,7 @@ section.lazy-placeholder:after {
 }
 .cid-rYAI4gMDBP .body-item {
   text-align: center;
+  color: #ffffff;
 }
 .cid-rYAI4gMDBP .mbr-section-title {
   text-align: center;
@@ -1590,6 +1591,7 @@ section.lazy-placeholder:after {
 }
 .cid-rYAI4gMDBP .head-item {
   text-align: center;
+  color: #ffffff;
 }
 .cid-rYAWyxGgUL {
   padding-top: 30px;
@@ -2394,7 +2396,6 @@ section.lazy-placeholder:after {
 .cid-txCQFl84zb {
   padding-top: 45px;
   padding-bottom: 0px;
-  background-image: url("../../../assets/images/img-2982-1440x1800.jpg");
 }
 .cid-txCQFl84zb .nav-tabs {
   -webkit-justify-content: center;
@@ -4034,7 +4035,7 @@ section.lazy-placeholder:after {
 .cid-rYMro6Q6LP table {
   width: 100% !important;
   margin-top: 6px;
-  border: 1px solid #cccccc;
+  border: 1px solid #ffffff;
   margin-bottom: 0;
 }
 .cid-rYMro6Q6LP table th {
@@ -4043,14 +4044,14 @@ section.lazy-placeholder:after {
   border-bottom: none;
 }
 .cid-rYMro6Q6LP table th:hover {
-  background: #cccccc;
+  background: #ffffff;
   color: #000000;
 }
 .cid-rYMro6Q6LP table td {
-  border-top: 1px solid #cccccc;
+  border-top: 1px solid #ffffff;
 }
 .cid-rYMro6Q6LP table.table {
-  background: #ffffff;
+  background: #0d1c67;
 }
 .cid-rYMro6Q6LP .dataTables_filter {
   text-align: right;
@@ -4088,9 +4089,11 @@ section.lazy-placeholder:after {
 }
 .cid-rYMro6Q6LP .body-item {
   text-align: center;
+  color: #ffffff;
 }
 .cid-rYMro6Q6LP .head-item {
   text-align: center;
+  color: #ffffff;
 }
 .cid-rYMro6Q6LP .mbr-section-title {
   color: #ffffff;
