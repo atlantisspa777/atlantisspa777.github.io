@@ -678,6 +678,25 @@ iframe.lazy-placeholder,
 section.lazy-placeholder:after {
   opacity: 0.3;
 }
+.cid-u0isyGG6ZF {
+  padding-top: 90px;
+  padding-bottom: 30px;
+  background-image: url("../../../assets/images/1625531123-4-kartinkin-com-p-bannii-fon-krasivie-foni-4-2-1536x864.jpg");
+}
+@media (min-width: 992px) {
+  .cid-u0isyGG6ZF .mbr-figure {
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-u0isyGG6ZF .mbr-figure {
+    padding-top: 3rem;
+  }
+}
+.cid-u0isyGG6ZF .mbr-section-title {
+  text-align: center;
+  color: #ffffff;
+}
 .cid-rYBkVdfzdD .navbar {
   padding: .5rem 0;
   background: #0d1c67;
@@ -1074,7 +1093,7 @@ section.lazy-placeholder:after {
   color: #c1c1c1 !important;
 }
 .cid-txQ2JNUHwu {
-  padding-top: 90px;
+  padding-top: 60px;
   padding-bottom: 0px;
   background-image: url("../../../assets/images/img-2714-960x1280.jpg");
 }

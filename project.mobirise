@@ -44,7 +44,7 @@
         "url": "https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i"
       }
     ],
-    "uniqCompNum": 348,
+    "uniqCompNum": 349,
     "versionPublish": "5.9.6",
     "imageResize": true,
     "favicon": "@PROJECT_PATH@/assets/images/f9cb4f6fc31e-1-128x139.png",
@@ -502,6 +502,55 @@
         {
           "alias": false,
           "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background": "linear-gradient(45deg, @bg-value, @color2)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-figure": {
+              "@media (min-width: 992px)": {
+                "padding-left": "4rem"
+              },
+              "@media (max-width: 991px)": {
+                "padding-top": "3rem"
+              }
+            },
+            ".media-container-row": {
+              "& when (@reverseContent)": {
+                "flex-direction": "row-reverse",
+                "-webkit-flex-direction": "row-reverse",
+                ".mbr-figure": {
+                  "@media (min-width: 992px)": {
+                    "padding-left": "0",
+                    "padding-right": "4rem"
+                  }
+                }
+              }
+            },
+            ".mbr-section-title": {
+              "text-align": "center",
+              "color": "#ffffff"
+            }
+          },
+          "_name": "header7",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"header7\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Полный экран\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Кнопки\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Медиа Справа/Слева\" name=\"reverseContent\">\n\n        <input type=\"range\" inline title=\"Размер медиа\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"100\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"@PROJECT_PATH@/assets/images/1625531123-4-kartinkin-com-p-bannii-fon-krasivie-foni-4-2-1536x864.jpg\" selected>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#0f7699\">\n            <input type=\"video\" title=\"Фоновое видео\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"color\" name=\"color2\" title=\"Цвет 2\" value=\"#ff7f9f\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n\n            <div class=\"media-content align-right\">\n                <h1 class=\"mbr-section-title mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>Таких бань </b><br><b>ВЫ ещё не видели!</b><br><b style>Мы сделаем отдых незабываемым для каждого гостя</b></h1>\n                <div class=\"mbr-section-text mbr-white pb-3\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                        Интро с цветом фона, подложкой и видео справа. Mobirise помогает сократить время разработки, предоставляя гибкий редактор веб-сайта с интерфейсом перетаскивания.\n                    </p>\n                </div>\n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-info\" href=\"tel:+359876650005\" data-app-placeholder=\"Введите Текст\">ЗАКАЗАТЬ<br>(reserve a sauna)</a> <a class=\"btn btn-md btn-success\" href=\"spa_and_wellness.html\" data-app-placeholder=\"Введите Текст\">ВЫБРАТЬ БАНЮ<br>(more)</a></div>\n            </div>\n\n            <div mbr-video class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                <iframe src=\"https://www.youtube.com/watch?v=1CrGua3jckM&loop=1&autoplay=1\"></iframe>\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_anchor": "header7-9o",
+          "_isUserblock": true,
+          "_cid": "u0isyGG6ZF",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
             "& when (@bg-type = 'color')": {
@@ -558,7 +607,7 @@
           },
           "_name": "tabs1",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"tabs1\" group=\"Accordion & Toggles & Tabs\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mbr-tabs\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Вкладки\" name=\"tabsColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Активная вкладка\" name=\"activeTabColor\" value=\"#0d1c67\">\n        <select title=\"Вкладки\" name=\"bootstrapTabs\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"@PROJECT_PATH@/assets/images/img-2714-960x1280.jpg\" selected>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#f9f9f9\">\n            <input type=\"video\" title=\"Фоновое видео\" value=\"https://www.youtube.com/watch?v=b82T426SmG8\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#82786e\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <h2 class=\"mbr-white align-center pb-5 mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">WELLNESS AND FITNESS</h2>\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <ul class=\"nav nav-tabs\" role=\"tablist\">\n                    <li mbr-buttons mbr-theme-style=\"display-5\" class=\"nav-item\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs1-7d_tab0\" data-app-placeholder=\"Введите Текст\" aria-selected=\"true\">RU</a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-5\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 1\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs1-7d_tab1\" data-app-placeholder=\"Введите Текст\" aria-selected=\"true\">BG</a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-5\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 2\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs1-7d_tab2\" data-app-placeholder=\"Введите Текст\" aria-selected=\"true\">EN</a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-5\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 3\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs1-7d_tab3\" data-app-placeholder=\"Введите Текст\" aria-selected=\"true\">DE</a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-7\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\">\n                        <a class=\"nav-link mbr-fonts-style\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5\">\n                            Хост в любом месте\n                        </a>\n                    </li>\n                    <li mbr-buttons mbr-theme-style=\"display-7\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 5\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\">\n                        <a class=\"nav-link mbr-fonts-style\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6\">\n                            Простота использования\n                        </a>\n                    </li>\n                </ul>\n                <div class=\"tab-content\">\n                    <div id=\"tab1\" class=\"tab-pane in active\" role=\"tabpanel\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text py-5 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>График работы: </b><br><b>ПН-СБ, 8:00-21:00&nbsp;</b><br><b>Воскресенье, 10:00-21:00</b><br><br>Добро пожаловать в Atlantis Wellness - оазис релаксации и здоровья. Откройте для себя настоящие сокровища, включая русскую баню с дубовыми и березовыми вениками, турецкий хаммам, травяную баню, финскую сауну и солевую баню. Насладитесь вкусным и согревающим чаем. Наш фитнес-зал поможет вам поддерживать форму и здоровье, а профессиональный солярий с рубиновыми лампами сохранит ваш загар на протяжении всего года. Наслаждайтесь профессиональными массажами и обёртыванием, чтобы избавиться от стресса, расслабиться и восстановить силы. В Atlantis Wellness мы заботимся о вашем здоровье и готовы предоставить вам незабываемый отдых. Ждем вас!<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab2\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 1\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text py-5 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Работно време:<br>Понеделник-Събота, 8:00-21:00<br>Неделя, 10:00-21:00</b><br><b><br></b><br>Добре дошли в Atlantis Wellness, оазис на релаксацията и здравето. Открийте истински съкровища, включително руска баня с дъбови и брезови метли, турски хамам, билкова баня, финландска сауна и солна сауна. Насладете се на вкусен и сгряващ чай. Фитнес залата ни ще се погрижи за вашата форма и здраве, а професионалният ни солариум с рубинени светлини ще ви осигури тен през цялата година. Насладете се на професионални масажи и обвивания, за да се освободите от стреса, да се отпуснете и да се подмладите. В СПА центъра на Атлантис ние сме отдадени на вашето благополучие и сме готови да ви осигурим незабравимо преживяване. <br>Очакваме ви с нетърпение!<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab3\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 2\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text py-5 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Working time:<br>Mon-Sat, 8 AM–9 PM<br>Sun, 10 AM–9 PM</b><br><br>Welcome to Atlantis Wellness, an oasis of relaxation and health. Discover true treasures, including Russian bath with oak and birch brooms, Turkish hammam, herbal bath, Finnish sauna and salt bath. Enjoy delicious and warming tea. Our fitness room will keep you fit and healthy, and a professional tanning bed with ruby lights will keep you tan all year long. Enjoy professional massages and wraps to de-stress, relax and rejuvenate. At Atlantis Spa, we are committed to your health and well-being and ready to offer you unforgettable experience.<br><b>We are looking forward to seeing you!</b><br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab4\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 3\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text py-5 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Arbeitszeiten:<br>Mo-Sa, 8 AM-9 PM<br>So, 10 AM-9 PM</b><br><br>Willkommen im Atlantis Wellness, einer Oase der Entspannung und des Wohlbefindens. Entdecken Sie wahre Schätze wie ein russisches Bad mit Eichen- und Birkenbesen, ein türkisches Hammam, ein Kräuterbad, eine finnische Sauna und eine Salzsauna. Genießen Sie einen köstlichen und wärmenden Tee. Unser Fitnessraum hält Sie fit und gesund, und unser professionelles Solarium mit Rubinlicht lässt Sie das ganze Jahr über bräunen. Genießen Sie professionelle Massagen und Packungen, um Stress abzubauen, zu entspannen und sich zu verjüngen. Im Atlantis Wellness sind wir um Ihr Wohlbefinden bemüht und bereit, Ihnen ein unvergessliches Erlebnis zu bieten. Wir freuen uns auf Sie!</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab5\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 4\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text py-5 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                    Публикуйте сайт на локальном диске, FTP или хостингах Amazon S3, Google Cloud, GitHub. Не будьте заложником только одной платформы или провайдера.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab6\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 5\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text py-5 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                    Просто поместите блоки на страницу, отредактируйте содержимое и можете публиковать - не требуется никаких технических навыков.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"tabs1\" group=\"Accordion & Toggles & Tabs\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mbr-tabs\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Вкладки\" name=\"tabsColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Активная вкладка\" name=\"activeTabColor\" value=\"#0d1c67\">\n        <select title=\"Вкладки\" name=\"bootstrapTabs\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"@PROJECT_PATH@/assets/images/img-2714-960x1280.jpg\" selected>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#f9f9f9\">\n            <input type=\"video\" title=\"Фоновое видео\" value=\"https://www.youtube.com/watch?v=b82T426SmG8\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#82786e\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <h2 class=\"mbr-white align-center pb-5 mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">WELLNESS AND FITNESS</h2>\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <ul class=\"nav nav-tabs\" role=\"tablist\">\n                    <li mbr-buttons mbr-theme-style=\"display-5\" class=\"nav-item\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs1-7d_tab0\" data-app-placeholder=\"Введите Текст\" aria-selected=\"true\">RU</a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-5\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 1\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs1-7d_tab1\" data-app-placeholder=\"Введите Текст\" aria-selected=\"true\">BG</a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-5\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 2\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs1-7d_tab2\" data-app-placeholder=\"Введите Текст\" aria-selected=\"true\">EN</a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-5\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 3\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs1-7d_tab3\" data-app-placeholder=\"Введите Текст\" aria-selected=\"true\">DE</a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-7\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\">\n                        <a class=\"nav-link mbr-fonts-style\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5\">\n                            Хост в любом месте\n                        </a>\n                    </li>\n                    <li mbr-buttons mbr-theme-style=\"display-7\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 5\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\">\n                        <a class=\"nav-link mbr-fonts-style\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6\">\n                            Простота использования\n                        </a>\n                    </li>\n                </ul>\n                <div class=\"tab-content\">\n                    <div id=\"tab1\" class=\"tab-pane in active\" role=\"tabpanel\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text py-5 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>График работы: </b><br><b>ПН-СБ, 8:00-21:00&nbsp;</b><br><b>Воскресенье, 10:00-21:00</b><br><br>Добро пожаловать в Atlantis Wellness - оазис релаксации и здоровья. Откройте для себя настоящие сокровища, включая русскую баню с дубовыми и березовыми вениками, турецкий хаммам, травяную баню, финскую сауну и солевую баню. Насладитесь вкусным и согревающим чаем. Наш фитнес-зал поможет вам поддерживать форму и здоровье, а профессиональный солярий с рубиновыми лампами сохранит ваш загар на протяжении всего года. Наслаждайтесь профессиональными массажами и обёртыванием, чтобы избавиться от стресса, расслабиться и восстановить силы. В Atlantis Wellness мы заботимся о вашем здоровье и готовы предоставить вам незабываемый отдых. Ждем вас!<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab2\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 1\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text py-5 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Работно време:<br>Понеделник-Събота, 8:00-21:00<br>Неделя, 10:00-21:00</b><br><b><br></b><br>Добре дошли в Atlantis Wellness, оазис на релаксацията и здравето. Открийте истински съкровища, включително руска баня с дъбови и брезови метли, турски хамам, билкова баня, финландска сауна и солна сауна. Насладете се на вкусен и сгряващ чай. Фитнес залата ни ще се погрижи за вашата форма и здраве, а професионалният ни солариум с рубинени светлини ще ви осигури тен през цялата година. Насладете се на професионални масажи и обвивания, за да се освободите от стреса, да се отпуснете и да се подмладите. В СПА центъра на Атлантис ние сме отдадени на вашето благополучие и сме готови да ви осигурим незабравимо преживяване. <br>Очакваме ви с нетърпение!<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab3\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 2\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text py-5 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Working time:<br>Mon-Sat, 8 AM–9 PM<br>Sun, 10 AM–9 PM</b><br><br>Welcome to Atlantis Wellness, an oasis of relaxation and health. Discover true treasures, including Russian bath with oak and birch brooms, Turkish hammam, herbal bath, Finnish sauna and salt bath. Enjoy delicious and warming tea. Our fitness room will keep you fit and healthy, and a professional tanning bed with ruby lights will keep you tan all year long. Enjoy professional massages and wraps to de-stress, relax and rejuvenate. At Atlantis Spa, we are committed to your health and well-being and ready to offer you unforgettable experience.<br><b>We are looking forward to seeing you!</b><br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab4\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 3\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text py-5 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Arbeitszeiten:<br>Mo-Sa, 8 AM-9 PM<br>So, 10 AM-9 PM</b><br><br>Willkommen im Atlantis Wellness, einer Oase der Entspannung und des Wohlbefindens. Entdecken Sie wahre Schätze wie ein russisches Bad mit Eichen- und Birkenbesen, ein türkisches Hammam, ein Kräuterbad, eine finnische Sauna und eine Salzsauna. Genießen Sie einen köstlichen und wärmenden Tee. Unser Fitnessraum hält Sie fit und gesund, und unser professionelles Solarium mit Rubinlicht lässt Sie das ganze Jahr über bräunen. Genießen Sie professionelle Massagen und Packungen, um Stress abzubauen, zu entspannen und sich zu verjüngen. Im Atlantis Wellness sind wir um Ihr Wohlbefinden bemüht und bereit, Ihnen ein unvergessliches Erlebnis zu bieten. Wir freuen uns auf Sie!</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab5\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 4\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text py-5 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                    Публикуйте сайт на локальном диске, FTP или хостингах Amazon S3, Google Cloud, GitHub. Не будьте заложником только одной платформы или провайдера.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab6\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 5\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text py-5 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                    Просто поместите блоки на страницу, отредактируйте содержимое и можете публиковать - не требуется никаких технических навыков.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "tabs1-7d",
           "_isUserblock": true,
           "_cid": "txQ2JNUHwu",
@@ -822,12 +871,33 @@
           "_once": false,
           "_params": {
             "slides__autoplay": "hover",
-            "slides__autoplayInterval": "8000",
+            "slides__autoplayInterval": "5000",
             "slides__showBullets": true,
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/mbr-9-1920x1280.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2023-03-08-09.42.17-960x1280.jpg",
                 "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fE3lw8gXtWI",
+                "customStyle1": "display-1",
+                "customStyle2": "display-7",
+                "customStyle3": "display-4",
+                "alt": "",
+                "title": "",
+                "textTitle": "<b>Wellness</b>",
+                "overlay": true,
+                "contentAlign": "center",
+                "text": "<b>\"Искусство релаксации: откройте для себя нашу коллекцию уникальных бань\"<br>\"Изкуството на релаксацията: открийте нашата колекция от уникални сауни\"</b><br><br><br>",
+                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-white-outline display-4\" data-app-placeholder=\"Введите Текст\" href=\"spa_and_wellness.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mobi-mbri mobi-mbri-touch mbr-iconfont mbr-iconfont-btn\"></span></a> ",
+                "overlayOpacity": "0.2",
+                "overlayColor": "#cebfaf"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/mbr-9-1920x1280.jpg",
+                "active": true,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -847,23 +917,23 @@
                 "overlayColor": "#cebfaf"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/2023-03-08-09.42.17-960x1280.jpg",
-                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/img-674-2000x1333-800x533.jpg",
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
                 "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fE3lw8gXtWI",
+                "videoUrl": "",
                 "customStyle1": "display-1",
                 "customStyle2": "display-7",
                 "customStyle3": "display-4",
                 "alt": "",
                 "title": "",
-                "textTitle": "<b>Wellness</b>",
+                "textTitle": "<b>Solarium Mega Sun</b>",
                 "overlay": true,
                 "contentAlign": "center",
-                "text": "<b>\"Искусство релаксации: откройте для себя нашу коллекцию уникальных бань\"<br>\"Изкуството на релаксацията: открийте нашата колекция от уникални сауни\"</b><br><br><br>",
-                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-white-outline display-4\" data-app-placeholder=\"Введите Текст\" href=\"spa_and_wellness.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mobi-mbri mobi-mbri-touch mbr-iconfont mbr-iconfont-btn\"></span></a> ",
+                "text": "<b>\"Сияйте красотой: насладитесь безупречным загаром в нашем современном солярии\"<br>\"Блясък на красотата: насладете се на безупречен тен в нашия модерен солариум\"</b><br>",
+                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-white-outline display-4\" data-app-placeholder=\"Введите Текст\" href=\"solarium_mega_sun.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mobi-mbri mobi-mbri-touch mbr-iconfont mbr-iconfont-btn\"></span></a> ",
                 "overlayOpacity": "0.2",
                 "overlayColor": "#cebfaf"
               },
@@ -885,27 +955,6 @@
                 "contentAlign": "center",
                 "text": "<b>\"Поэтапный подход к совершенству: достигайте своих фитнес-целей вместе с нами\".<br>\"Стъпка по стъпка към съвършенството: постигнете фитнес целите си с нас\".</b><br>",
                 "buttons": " <a data-app-btn=\"true\" class=\"btn btn-white-outline display-4\" data-app-placeholder=\"Введите Текст\" href=\"fitness.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mobi-mbri mobi-mbri-touch mbr-iconfont mbr-iconfont-btn\"></span></a>",
-                "overlayOpacity": "0.2",
-                "overlayColor": "#cebfaf"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-674-2000x1333-800x533.jpg",
-                "active": false,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "",
-                "customStyle1": "display-1",
-                "customStyle2": "display-7",
-                "customStyle3": "display-4",
-                "alt": "",
-                "title": "",
-                "textTitle": "<b>Solarium Mega Sun</b>",
-                "overlay": true,
-                "contentAlign": "center",
-                "text": "<b>\"Сияйте красотой: насладитесь безупречным загаром в нашем современном солярии\"<br>\"Блясък на красотата: насладете се на безупречен тен в нашия модерен солариум\"</b><br>",
-                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-white-outline display-4\" data-app-placeholder=\"Введите Текст\" href=\"solarium_mega_sun.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mobi-mbri mobi-mbri-touch mbr-iconfont mbr-iconfont-btn\"></span></a> ",
                 "overlayOpacity": "0.2",
                 "overlayColor": "#cebfaf"
               }
@@ -970,11 +1019,11 @@
           "_sourceTheme": "mobirise4",
           "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Полная ширина\" name=\"fullWidth\" checked>\n\n    <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Ширина\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Градиент\" name=\"gradientBg\" condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Цвет 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://www.youtube.com/watch?v=1CrGua3jckM&list=TLGGiIBCYwRJwXMyMzEyMjAyMw&loop=1&autoplay=1\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
           "_cid": "tZhBb6qACD",
+          "_anchor": "video2-9n",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "video2-9n"
+          "_params": {}
         },
         {
           "alias": false,
